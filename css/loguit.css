@@ -1,0 +1,75 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 40vh;
+    font-family:Arial, Sans-Serif;
+    background-image: url('../img/Wcare/Handen.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Centert alles */
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%;
+    text-align: center;
+  } 
+
+.square {
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    width: 475px;
+    height: 400px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: -76px 0 0 -76px;
+}
+.square h3 {
+    color: rgb(0, 0, 0);
+    height: 60%;
+}
+
+.square img {
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    width: 200px;
+    height: 50px;
+}
+
+.square image {
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    width: 200px;
+    height: 50px;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #cc0000;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(270deg);}
+    100% { transform: rotate(360deg); }
+}

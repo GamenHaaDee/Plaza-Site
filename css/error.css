@@ -1,0 +1,57 @@
+/* Centert alles */
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%;
+    text-align: center;
+  } 
+
+.fout {
+    /* position: relative; */
+    /* left: 50%; */
+    /* top: 0%; */
+    width: 1000px;
+    height: 75px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    /* margin: -500px 0 0 60px; */
+    border-radius: 25px;
+}
+
+.fout h3 {
+    color: rgb(255, 0, 0);
+}
+
+.fout img {
+    position: absolute;
+    left: 32%;
+    height: 50px;
+    width: 50px;
+} 
+
+.goed h3 {
+    color: rgb(22, 216, 22);
+}
+
+.goed img {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    height: 250px;
+    width: 250px;
+} 
+
+.goed {
+    /* position: relative; */
+    /* left: 50%; */
+    /* top: 0%; */
+    width: 450px;
+    height: 75px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    /* margin: -500px 0 0 60px; */
+    border-radius: 25px;
+}

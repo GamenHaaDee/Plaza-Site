@@ -1,0 +1,63 @@
+body {
+     width: auto;
+     height: auto;
+     /* padding: 40vh; */
+     font-family:Arial, Sans-Serif;
+     background-image: url('../../img/Wcare/icegif-1149.gif');
+     position: absolute;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+/* Centert alles */
+
+h1{
+     color: linear-gradient(to right, #cc0000 0%, #ff99cc 100%);
+}
+
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+.form{
+    text-align: center;
+     width: 300px;
+     margin: 0 auto;
+}
+input[type='text'], 
+input[type='email'],
+input[type='password'] {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: rgb(255, 255, 255);
+     font-size: 14px;
+     margin-top: 10px;
+     background-color: #00000054;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color:   #cc0000;
+     text-shadow: rgba(231,208,58,0.24) 0 1px 0;
+     font-size: 16px;
+     /* box-shadow: rgba(231,208,58,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; */
+     border: 1px solid  #cc0000; 
+     border-radius: 35px;
+     margin-top: 10px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     /* background-color: #f0df74; */
+     border-radius: 2px;
+}

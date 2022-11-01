@@ -1,0 +1,90 @@
+body {
+     width: 100%;
+     height: auto;
+     padding: 40vh;
+     font-family:Arial, Sans-Serif;
+     background-image: url('../img/Wcare/Handen.png');
+     position: absolute;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+/* Centert alles */
+div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-size: 100% 100%;
+     text-align: center;
+   } 
+
+   h1{
+     background: -webkit-linear-gradient(#cc0000, black);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+   }
+
+   .btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+   .btn-grad {
+      /* margin: 10px; */
+      /* padding: 15px 10px; */
+      text-align: center;
+      text-transform: uppercase;
+      transition: 1.0s;
+      background-size: 200% auto;
+      color: white;            
+      /* box-shadow: 0 0 20px #eee; */
+      /* border-radius: 10px; */
+      /* display: block; */
+    }
+
+    .btn-grad:hover {
+      background-position: right center; /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+    }
+    
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+.form{
+     width: 300px;
+     margin: 0 auto;
+}
+input[type='text'], 
+input[type='email'],
+input[type='password'] {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: rgb(255, 255, 255);
+     font-size: 14px;
+     margin-top: 10px;
+     background-color: #00000054;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color:   #cc0000;
+     text-shadow: rgba(231,208,58,0.24) 0 1px 0;
+     font-size: 16px;
+     /* box-shadow: rgba(231,208,58,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; */
+     border: 1px solid  #cc0000; 
+     border-radius: 2px;
+     margin-top: 10px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: f0df74;
+}

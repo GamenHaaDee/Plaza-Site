@@ -1,0 +1,142 @@
+
+html {
+	direction: ltr;
+	overflow-x: hidden;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+
+}
+
+html body, html .body {
+	background-color: #212529;
+}
+
+body {
+	color: #777;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	margin: 0;
+}
+
+.excel{
+	position: absolute;
+    text-align:left;
+    /* margin:2 auto; */
+}
+
+
+.rows{
+    text-align:center;
+    margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.col-lg-2{
+   display:inline-block;
+   vertical-align: middle;
+   float: none;
+}
+
+html h1 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+li {
+	line-height: 24px;
+}
+
+.featured-box {
+	background: #333940;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	border-left-color: #333940;
+	border-right-color: #333940;
+	border-bottom-color: #333940;
+}
+
+/* Header */
+#header {
+	position: relative;
+	z-index: 1030;
+}
+
+.px-3 {
+	font-size: 16px;
+	color: white;
+}
+
+#header .header-container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-transition: ease height 300ms;
+	transition: ease height 300ms;
+}
+
+
+#header .header-row {
+	/* display: -webkit-box; */
+	/* display: -ms-flexbox; */
+	display: flex;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-item-align: stretch;
+	align-self: stretch;
+	/* max-height: 100%; */
+	margin: 5px;
+}
+
+.zwartbalk {
+	background-color: #171717;
+	margin: 0 0 35px 0;
+	padding: 30px 0;
+	position: relative;
+	text-align: left;
+}
+
+/* #Footer */
+#footer {
+	background: #212529;
+	border-top: 4px solid #212529;
+	font-size: 0.9em;
+	margin-top: 50px;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	clear: both;
+}
+
+#footer .footer-copyright {
+	background: #1c2023;
+	bottom: 0;
+}
+
+#footer .footer-copyright p {
+	color: #555;
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+}
+
+.footer {
+	background: #1c2023;
+	bottom: 0;
+}
